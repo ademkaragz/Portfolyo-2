@@ -721,16 +721,16 @@ details[open] summary {
   transition-delay: .5s;
 }
 
-/* Corrousel */
+/* Corousel */
 
-#corrousel{
+#corousel{
   margin-top: 3rem;
   text-align: center;
   margin-left: 10rem;
   margin-right: 10rem;
 }
 
-.corrousel{
+.corousel{
   display: grid;
   grid-auto-flow: column;
   scroll-behavior: auto;
@@ -741,12 +741,12 @@ details[open] summary {
   scrollbar-width: none;
 }
 
-.corrousel .card{
+.corousel .card{
   min-width: 400px;
   height: 250px;
 }
 
-.corrousel .card img{
+.corousel .card img{
   width: 100%;
   height: 100%;
 }
@@ -820,7 +820,7 @@ details[open] summary {
 }
 
 @media screen  and (min-width:768px) and (max-width: 1024px){
-  #corrousel{
+  #corousel{
     margin-top: 3rem;
     text-align: center;
     margin-left: 1.5rem;
@@ -840,14 +840,14 @@ details[open] summary {
 }
 
 @media screen  and (max-width:767px){
-  #corrousel{
+  #corousel{
     margin-top: 3rem;
     text-align: center;
     margin-left: 1rem;
     margin-right: 1rem;
   }
 
-  .corrousel .card{
+  .corousel .card{
     min-width: 380px;
     height: 250px;
   }
